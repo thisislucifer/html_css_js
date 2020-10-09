@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
+    <div class="overlay" id="overlay">
+        <h3>Searchin now...</h3>
+    </div>
     <div class="hero-bg">
         <section class="top">
            <header>
@@ -25,7 +27,7 @@
                         <p>Example: "India"</p>
                     </div>   
 
-                    <input type="button" value="Find Food Now!">
+                    <input type="button" value="Find Food Now!" id='cta-btn'>
                 </form>    
            </div>
         </section>
@@ -37,5 +39,17 @@
         </div>
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/food.jpg" alt="Picture of a bowl.">
     </section>
+    
+    <script>
+
+        let btn = document.getElementById('cta-btn');
+        let overlay = document.getElementById('overlay');
+
+        btn.addEventListener("click", ()=> {
+            overlay.style.display='grid'
+            overlay.classList.add('animate-overlay')
+        })
+
+    </script>
 </body>
 </html>
