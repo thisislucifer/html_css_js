@@ -1,0 +1,27 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+body{
+    background-size: cover;
+    background: url(../images/Desktop.png) no-repeat center center fixed;
+
+}
+
+h1{
+    margin: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+}
+
+.youtube {
+    height: 315px;
+    width: 560px;
+    box-shadow: 14px 16px 18px -10px rgba(82, 82, 82, 0.5);
+}
