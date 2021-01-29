@@ -2,5 +2,5 @@
     display: flex;
     border: 2px solid black;
     /* always mention the flex-direction: */
-    flex-direction: ;   
+    flex-direction: row;   
 }
