@@ -1,0 +1,15 @@
+/* NOTE- 
+1. default property of justify-content is "flex-start"
+2. If you want the elements of the parent container to start from right without changing the order
+    use "flex-end" proprty of justify-content.
+3. Justify content always runs fpr main axis.
+4. always define your flex-direction.
+*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+
+    justify-content: space-between;
+}
