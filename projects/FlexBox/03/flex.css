@@ -1,0 +1,13 @@
+/* NOTES - 
+1. When we want more control from Top > Bottom , Align-item comes into play.
+2. Always aling elements using flexbox.
+3. In 02,03 all the properties are applied at parent-level only.
+ */
+.container{
+    display: flex;
+    border: 1px solid black;
+    height: 500px;
+    justify-content: center;
+    align-items: baseline;
+
+}
