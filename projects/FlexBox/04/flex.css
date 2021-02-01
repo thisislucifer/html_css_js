@@ -1,0 +1,10 @@
+/* NOTES- 
+1. Flex-wrap : wraps the content inside. 
+\ */
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+}

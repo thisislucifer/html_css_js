@@ -1,0 +1,18 @@
+/* NOTES -
+1. 
+ */
+
+.container{
+    display: flex;
+    border: 2px solid black;
+    width: 700px;
+
+}
+
+.one{
+    order: -1;
+}
+
+.container div:nth-child(6){
+    order: -2;
+}

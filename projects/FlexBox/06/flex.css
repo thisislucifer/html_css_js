@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    border: 1px solid black;
+    width: 1000px;
+}
+/* flex-grow is all about ratio */
+.container div{
+    flex-grow: 1;
+}
+
+.container div:nth-child(2){
+    flex-grow: 2;
+}
